@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Ameg Dines, aspiring Data Scientist">
+    <title>Ameg Dines | Data Science Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Background Canvas for Interactive Data Network Effect -->
+    <canvas id="network-canvas"></canvas>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="logo">{ Ameg Dines }</a>
+            <div class="hamburger">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#future">Vision</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="section">
+        <div class="container hero-content">
+            <div class="hero-text glass-panel">
+                <p class="greeting">Hello, World. I am</p>
+                <h1 class="name">Ameg Dines</h1>
+                <h2 class="title"><span class="typing-text"></span><span class="cursor">&nbsp;</span></h2>
+                <p class="tagline">Analyzing data to uncover patterns and build intelligent systems. Exploring the intersection of software engineering and machine learning.</p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="data-cube">
+                    <!-- CSS 3D Cube representing Data -->
+                    <div class="cube">
+                        <div class="face front">DATA</div>
+                        <div class="face back">ML</div>
+                        <div class="face right">AI</div>
+                        <div class="face left">DB</div>
+                        <div class="face top"></div>
+                        <div class="face bottom"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section (Education & Background) -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title"> <span class="highlight">About Me</span></h2>
+            <div class="about-grid">
+                <div class="about-text glass-panel">
+                    <p>I am a passionate B.Tech student in Computer Science and Engineering at Lovely Professional University, with a strong focus on Data Science and Software Engineering. My goal is to become a top-tier Data Scientist, leveraging algorithms and statistical models to solve complex real-world problems.</p>
+                    <p>My journey spans from foundational computer science concepts to advanced modern tools like Generative AI and scalable applications.</p>
+                    <div class="education-timeline">
+                        <h3><i class="fas fa-graduation-cap"></i> Education</h3>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <h4>Lovely Professional University</h4>
+                            <p class="degree">Bachelor of Technology - CSE</p>
+                            <span class="date">Aug '23 - Present (CGPA: 6.4)</span>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <h4>Gvhss Madappally</h4>
+                            <p class="degree">Intermediate</p>
+                            <span class="date">Jun '21 - Mar '23 (Percentage: 93.9%)</span>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <h4>Gvhss Madappally</h4>
+                            <p class="degree">Matriculation</p>
+                            <span class="date">Jun '20 - Mar '21 (Percentage: 95%)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-stats glass-panel">
+                    <h3><i class="fas fa-certificate"></i> Certifications & Training</h3>
+                    <ul class="cert-list">
+                        <li>
+                            <i class="fas fa-robot highlight"></i>
+                            <div>
+                                <strong>Master Generative AI and Generative AI Tools</strong>
+                                <span>Udemy | Aug '25</span>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fas fa-cogs highlight"></i>
+                            <div>
+                                <strong>Build Generative AI Apps and Solutions</strong>
+                                <span>Udemy | Aug '24</span>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fas fa-laptop-code highlight"></i>
+                            <div>
+                                <strong>Legacy Responsive Web Design V8</strong>
+                                <span>FreeCodeCamp | Jun '24</span>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fab fa-java highlight"></i>
+                            <div>
+                                <strong>Java with DSA</strong>
+                                <span>CipherSchools | Jun '25 - Jul '25</span>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="achievement mt-4">
+                        <h3><i class="fas fa-trophy"></i> Achievement</h3>
+                        <p>Earned <strong>Top badge on HackerRank</strong>, including a <strong>3-Star rating in Java</strong> for consistent performance. (Nov '25)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title"><span class="highlight">Technical Arsenal</span></h2>
+            <div class="skills-grid">
+                <div class="skill-category glass-panel">
+                    <h3><i class="fas fa-code"></i> Languages</h3>
+                    <div class="skill-tags">
+                        <span>Python</span>
+                        <span>Java</span>
+                        <span>C/C++</span>
+                    </div>
+                </div>
+                <div class="skill-category glass-panel">
+                    <h3><i class="fas fa-layer-group"></i> Frameworks & Web</h3>
+                    <div class="skill-tags">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>Java Swing</span>
+                    </div>
+                </div>
+                <div class="skill-category glass-panel">
+                    <h3><i class="fas fa-database"></i> Core CS & DB</h3>
+                    <div class="skill-tags">
+                        <span>MySQL</span>
+                        <span>SQL</span>
+                        <span>DBMS</span>
+                        <span>OS</span>
+                        <span>CN</span>
+                        <span>OOPs</span>
+                    </div>
+                </div>
+                <div class="skill-category glass-panel">
+                    <h3><i class="fas fa-tools"></i> Tools & Soft Skills</h3>
+                    <div class="skill-tags">
+                        <span>Git</span>
+                        <span>GitHub</span>
+                        <span>Problem Solving</span>
+                        <span>Leadership</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title"><span class="highlight">Executed Projects</span></h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card glass-panel">
+                    <div class="project-header">
+                        <i class="far fa-folder-open folder-icon"></i>
+                        <div class="project-links">
+                            <a href="#" aria-label="GitHub Link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Event Manager</h3>
+                    <p class="project-description">A robust event-handling system built to efficiently organize and manage scheduled activities. Applies OOP principles with a comprehensive data structure for attributes.</p>
+                    <ul class="project-tech-list">
+                        <li>Java</li>
+                        <li>Java Swing</li>
+                    </ul>
+                </div>
+                <!-- Project 2 -->
+                <div class="project-card glass-panel">
+                    <div class="project-header">
+                        <i class="far fa-folder-open folder-icon"></i>
+                        <div class="project-links">
+                            <a href="#" aria-label="GitHub Link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Mental Health Simulator</h3>
+                    <p class="project-description">An interactive text-based tool to monitor mood patterns and receive tailored wellness guidance. Features structured scenario-based flows with input validation.</p>
+                    <ul class="project-tech-list">
+                        <li>Java</li>
+                        <li>Java Swing</li>
+                        <li>JSON</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Future Projects Section -->
+    <section id="future" class="section">
+        <div class="container">
+            <h2 class="section-title"><span class="highlight">Vision & Upcoming</span></h2>
+            <p class="section-subtitle">Roadmap towards becoming a full-fledged Data Scientist and deploying scalable platforms.</p>
+            
+            <div class="upcoming-grid">
+                <div class="upcoming-card glass-panel featured">
+                    <div class="content-wrapper">
+                        <h3><span class="highlight">Tour Kerala</span></h3>
+                        <p>A comprehensive web platform providing detailed tour plans and extensive information for visiting Kerala. Aimed at streamlining tourism via intuitive UI and data-driven recommendations.</p>
+                        <div class="status-badge"><i class="fas fa-spinner fa-spin"></i> In Pipeline</div>
+                    </div>
+                </div>
+                
+                <div class="upcoming-card glass-panel featured">
+                    <div class="content-wrapper">
+                        <h3><span class="highlight">GetMe Platform</span></h3>
+                        <p>A dynamic gig-economy platform connecting daily/monthly workers with consumers. Workers register skills and demand wages, while consumers dynamically find the right fit based on data-matching algorithms.</p>
+                        <div class="status-badge"><i class="fas fa-rocket"></i> Next Big Launch</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="contact-card glass-panel">
+                <h2 class="section-title text-center"><span class="highlight">Initialize Connection</span></h2>
+                <p class="text-center">Currently seeking opportunities to apply my data science and engineering skills. My inbox is always open.</p>
+                <div class="contact-links text-center pt-2">
+                    <a href="mailto:amegdines@gmail.com" class="btn btn-primary">Say Hello <i class="fas fa-paper-plane ml-1"></i></a>
+                </div>
+                <div class="social-icons text-center mt-3">
+                    <a href="https://linkedin.com/in/ameg-dines" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/AmegDines" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="tel:+917902415893" aria-label="Phone"><i class="fas fa-phone"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>Designed & Built by Ameg Dines</p>
+            <p class="footer-tech">Powered by HTML, CSS, JavaScript & Data Science Aspirations</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
